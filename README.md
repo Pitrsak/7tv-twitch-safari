@@ -1,12 +1,13 @@
-# 7TV/BTTV/FFZ Emotes for Twitch (Safari)
+# 7TV/BTTV/FFZ Emotes for Twitch & Kick (Safari)
 
-A Tampermonkey/userscript that brings 7TV, BTTV, and FFZ emotes to Twitch on Safari (and other browsers without native extension support).
+A Tampermonkey/userscript suite that brings 7TV, BTTV, and FFZ emotes to Twitch, and 7TV emotes to Kick on Safari (and other browsers without native extension support).
 
 ## Features
 
-- Displays 7TV, BTTV, and FFZ emotes in Twitch chat
+- Displays 7TV, BTTV, and FFZ emotes in **Twitch** chat
+- Displays 7TV emotes in **Kick** chat, with automatic fallback to streamer's Twitch 7TV profile
 - Autocomplete support - type `:` followed by emote name to search
-- Integrates into native Twitch autocomplete menu
+- Integrates into native Twitch autocomplete menu and provides a robust native-feeling menu for Kick
 - Hover tooltips showing emote name and source
 - Automatic channel detection and emote loading
 - Supports both global and channel-specific emotes
@@ -14,8 +15,10 @@ A Tampermonkey/userscript that brings 7TV, BTTV, and FFZ emotes to Twitch on Saf
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) for your browser
-2. Click [here](../../raw/main/7tv-twitch-safari.user.js) to install the script
-3. Go to any Twitch channel and enjoy emotes
+2. Select and install the scripts you need:
+   - **For Twitch**: Click [here](../../raw/main/7tv-twitch-safari.user.js)
+   - **For Kick**: Click [here](../../raw/main/7tv-kick-safari.user.js)
+3. Go to any supported channel and enjoy emotes
 
 ## Usage
 
